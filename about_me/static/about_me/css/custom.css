@@ -1,4 +1,5 @@
 /* This is custom css code for about_me page*/
+/* zmieione*/
 
 .footer {
 	max-width:100%;
@@ -6,10 +7,11 @@
 }
 section{
 	background-color:#fff;
-	padding-top:30px;
-	padding-bottom:30px;
+	padding-top:10px;
+	padding-bottom:10px;
 	padding-left:0px;
 	padding-right:0px;
+	text-align:justify;
 }
 
 hr {
@@ -22,10 +24,17 @@ hr {
 	
 }
 
+.kafelki {
+	display: flex;
+	justify-content:space-around;
+	
+}
 #tabela td{
+	margin-top:20px;
 	border: 1px solid #ddd;
 	padding: 15px;
 	vertical-align:middle;
+	font-style:bold;
 }
 #zdjecie{
 	padding-left:0px;
@@ -48,4 +57,11 @@ hr {
 	width:15px;
 	opacity:0.8;
 	align-items:center;
+}
+#hometext {
+	padding-left:10px;
+	padding-right:10px;
+	text-indent:30px;
+	font-style:italic;
+	font-size:18px;
 }

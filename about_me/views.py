@@ -14,3 +14,6 @@ def expv2(request):
 
 def skills(request):
     return render(request, 'about_me/skills.html')
+
+def interests(request):
+    return render(request, 'about_me/interests.html')

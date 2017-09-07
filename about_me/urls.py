@@ -6,4 +6,5 @@ urlpatterns = [
     url(r'^contact/', views.contact, name='contact'),
     url(r'^skills/', views.skills, name='skills'),
     url(r'^expv2/', views.expv2, name='expv'),
+    url(r'^interests/', views.interests, name='interests'),
 ]

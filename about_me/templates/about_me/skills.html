@@ -2,20 +2,22 @@
 
 {% block content %}
 
-	<h2>Umiejętności</h2>
-
-	<button class="btn btn-info btn-lg" type="button" data-toggle="collapse" data-target="#Mechanics" aria-expanded="false" aria-controls="collapseExample">
-	  Mechanika
-	</button>
-	<button class="btn btn-info btn-lg" type="button" data-toggle="collapse" data-target="#Programming" aria-expanded="false" aria-controls="collapseExample">
-	  Programowanie
-	</button>
-	<button class="btn btn-info btn-lg" type="button" data-toggle="collapse" data-target="#Languages" aria-expanded="false" aria-controls="collapseExample">
-	  Języki obce
-	</button>
-	<button class="btn btn-info btn-lg" type="button" data-toggle="collapse" data-target="#Other" aria-expanded="false" aria-controls="collapseExample">
-	  Inne
-	</button>
+	<h2>Umiejętności</h2><hr/>
+	<div class="kafelki">
+		<button class="btn btn-success btn-lg" type="button" data-toggle="collapse" data-target="#Mechanics" aria-expanded="false" aria-controls="collapseExample">
+		  Mechanika
+		</button>
+		<button class="btn btn-success btn-lg" type="button" data-toggle="collapse" data-target="#Programming" aria-expanded="false" aria-controls="collapseExample">
+		  Programowanie
+		</button>
+		<button class="btn btn-success btn-lg" type="button" data-toggle="collapse" data-target="#Languages" aria-expanded="false" aria-controls="collapseExample">
+		  Języki obce
+		</button>
+		<button class="btn btn-success btn-lg" type="button" data-toggle="collapse" data-target="#Other" aria-expanded="false" aria-controls="collapseExample">
+		  Inne
+		</button>
+	</div>
+	<br>
 	<div class="collapse in" id="Mechanics">
 	  <div class="well">
 			<table class="table table-striped" id="tabela">
@@ -114,7 +116,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td>GIT</td>
+					<td>git</td>
 					<td>
 						<img class="star" src="../../static/about_me/img/star.svg">
 						<img class="star" src="../../static/about_me/img/star.svg">
@@ -320,8 +322,96 @@
 		</table>
   </div>
 </div>
-	<!-- <div>	 -->
-		<!-- <h3>Enterprunership</h3> -->
-	<!-- </div> -->
 
+<div class="collapse in" id="Other">
+	<div class="well">
+		<!-- <div class="row"> -->
+		<center>
+			<table id="tabela" style="text-align:right">
+					<tr>
+						<td>
+							<button class="btn btn-outline-success">
+								Prawo jazdy - kat. B
+							</button>
+							<button class="btn btn-outline-success">
+								Praca w zespole
+							</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button class="btn btn-outline-success">
+								Łatwość nawiązywania kontaktów
+							</button>
+							<button class="btn btn-outline-success">
+								Zachowanie się w sytuacjach biznesowych z klientem
+							</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button class="btn btn-outline-success">
+								Organizacja i systematyzowanie pracy sobie i innym
+							</button>
+							<button class="btn btn-outline-success">
+								Prowadzenie rzeczowej i twórczej dyskusji - brainstorming
+							</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button class="btn btn-outline-success">
+								Czerpanie przyjemności z uczenia się
+							</button>
+							<button class="btn btn-outline-success">
+								Łatwość w przyswajaniu nowej wiedzy
+							</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button class="btn btn-outline-success">
+								Łatwość podejmowania decyzji
+							</button>
+							<button class="btn btn-outline-success">
+								Radzenie sobie ze stresem
+							</button>
+						</td>
+					</tr>
+			</table>
+					<!-- <tr> -->
+						<!-- <td class="btn btn-outline-success">Łatwość nawiązywania kontaktów</td> -->
+					<!-- </tr> -->
+					<!-- <tr>	 -->
+						<!-- <td class="btn btn-outline-success">Organizacja i systematyzowanie pracy sobie i innym</td> -->
+					<!-- </tr> -->
+					<!-- <tr>	 -->
+						<!-- <td class="btn btn-outline-success">Czerpanie przyjemności z uczenia się</td> -->
+					<!-- </tr> -->
+					<!-- <tr>	 -->
+						<!-- <td class="btn btn-outline-success">Łatwość podejmowania decyzji</td> -->
+					<!-- </tr> -->
+			<!-- </table> -->
+			<!-- <table class="col-lg-6" id="tabela"> -->
+					<!-- <tr> -->
+						<!-- <td class="btn btn-outline-success" >Praca w zespole</td> -->
+					<!-- </tr> -->
+					<!-- <tr>	 -->
+						<!-- <td class="btn btn-outline-success">Zachowanie się w sytuacjach biznesowych z klientem</td> -->
+
+					<!-- </tr> -->
+					<!-- <tr>	 -->
+						<!-- <td class="btn btn-outline-success">Prowadzenie rzeczowej i twórczej dyskusji - brainstorming</td> -->
+					<!-- </tr> -->
+					<!-- <tr> -->
+						<!-- <td class="btn btn-outline-success">Łatwość w przyswajaniu nowej wiedzy</td> -->
+					<!-- </tr> -->
+					<!-- <tr>	 -->
+						<!-- <td class="btn btn-outline-success">Radzenie sobie ze stresem</td> -->
+					<!-- </tr> -->
+			<!-- </table> -->
+			</center>
+		<!-- </div> -->
+	</div>
+</div>
 {% endblock %}
